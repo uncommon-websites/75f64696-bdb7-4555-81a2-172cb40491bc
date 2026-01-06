@@ -9,32 +9,25 @@
     </div>
 
     <!-- Right Column -->
-    <div class="w-full md:w-3/4 space-y-16">
+    <div class="w-full md:w-3/4">
       
-      <!-- San Francisco -->
+      <!-- Contact Info -->
       <div>
-        <h3 class="text-xl font-bold mb-6">San Francisco</h3>
-        <div class="aspect-[16/9] bg-gray-200 mb-4 overflow-hidden">
-            <img src="https://placehold.co/800x450/e5e5e5/a3a3a3?text=San+Francisco+Office" alt="San Francisco Office" class="w-full h-full object-cover" />
+        <h3 class="text-xl font-bold mb-6">Get in Touch</h3>
+        <div class="aspect-[16/9] bg-gray-200 mb-6 overflow-hidden">
+            <img src="/generated/image-modern-minimalist-workspace-with-laptop--1767714001086-1.webp" alt="Firedrop Workspace" class="w-full h-full object-cover" />
         </div>
-        <div class="text-sm font-medium leading-relaxed">
-          <p>535 Mission Street, Suite 2600</p>
-          <p>San Francisco, CA 94105</p>
-          <p class="mt-1">650-798-1600</p>
-        </div>
-      </div>
-
-      <!-- Boston -->
-      <div>
-        <h3 class="text-xl font-bold mb-6">Boston</h3>
-        <div class="aspect-[16/9] bg-gray-200 mb-4 overflow-hidden">
-            <img src="https://placehold.co/800x450/e5e5e5/a3a3a3?text=Boston+Office" alt="Boston Office" class="w-full h-full object-cover" />
-        </div>
-        <div class="text-sm font-medium leading-relaxed">
-          <p>101 Main Street, 17th Floor</p>
-          <p>Cambridge, MA 02142</p>
-          <p class="mt-1">617-494-1223</p>
-          <p class="mt-4"><a href="mailto:info@matrix.vc" class="hover:underline">info@matrix.vc</a></p>
+        <div class="text-base font-medium leading-relaxed space-y-4">
+          <p class="text-lg">
+            If you're a pre-seed founder with a unique vision, we'd love to hear from you.
+          </p>
+          <p>
+            <a href="mailto:pietro@firedrop.vc" class="hover:underline text-[oklch(0.592_0.249_17.585)]">pietro@firedrop.vc</a>
+          </p>
+          <div class="pt-6 text-gray-600">
+            <p>Investing across EU & US markets</p>
+            <p>Pre-seed stage specialists</p>
+          </div>
         </div>
       </div>
 

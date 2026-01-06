@@ -1,24 +1,17 @@
 <script>
-  const companiesLeft = [
-    "15Five", "Acacia", "Accord", "Affirmed", "Afterpay", "Airvana", "Alteon", "Aluna", "Ambarella", "AMCC", 
-    "Ampersand", "ApartmentList", "Apollo GraphQL", "ApplQ", "Apple", "Argon", "ArrowPoint", "Aruba", "August Health", 
-    "Baselane", "Baya Systems", "Benny", "Bonsai", "Broadband Access", "Bugsnag", "Camiant", "Canva", "Care.com", 
-    "Cascade", "Centaur Labs", "Chameleon", "CloudBees", "CloudSwitch", "CloudZero", "CommonGround", "Concerto", 
-    "Conductor", "Confer", "Copper Mountain", "Cosmos", "Courier", "CTRL Labs", "Earnin", "Educative", "Emerge Tools", 
-    "Empirix", "Fabletics", "FedEx", "Fini", "Fivetran", "Flex", "Flock Safety", "General Medicine", "Gentrace", 
-    "Gilt Groupe", "GOAT", "GrabCAD", "Hashboard", "Headlight", "Hookdeck", "Hubspot", "Infinity AI", "Inflection", 
-    "JBoss", "Keeper Tax", "Kolide", "Lam Research", "Lever", "Lightforce", "Lightmatter", "LM Studio", "LogRocket"
-  ];
-
-  const companiesRight = [
-    "Luma AI", "Markforged", "Mashgin", "Meadow", "Mesa", "Meshcapade", "Mevo", "Mudflap", "Namely", "Netezza", 
-    "nference", "Nubis", "Objective", "Oculus", "OmniML", "ONDisplay", "OpenPages", "Openwave", "Owl Labs", "Parabola", 
-    "PayRange", "Pingo", "Pixcel", "Plexxi", "Polyvore", "Postmates", "PostPath", "Poynt", "Prominet", "QPID", 
-    "Quora", "Rainforest", "Redstone", "Relace", "Reshop", "Salient", "Salsify", "SanDisk", "Sesame", "Side", 
-    "Sieve", "Sila", "SilverStream", "SiTera", "Smartcat", "Sonus", "Splitwise", "Spring Tide", "Starent", "Steadily", 
-    "Suno", "Sycamore", "Tabblo", "Taxa", "Tealeaf", "Teammates", "Tencor", "The Echo Nest", "The Ladders", 
-    "Tivoli Software", "Trisk Bio", "Turnstone", "Unidesk", "Veritas", "Vermeer", "WatchGuard", "Winphoria", "Xilinx", 
-    "Xtalic", "Zendesk", "Zest AI", "Zong"
+  const lpBenefits = [
+    "Access to 180 founder-angel LPs",
+    "Curated network introductions",
+    "Founder-referred dealflow",
+    "Pattern recognition expertise",
+    "7.5 years pre-seed experience",
+    "Proven 2.2x MOIC track record",
+    "EU & US market coverage",
+    "Pre-seed stage specialists",
+    "Unique founder archetypes",
+    "Early-stage conviction",
+    "Superconnector network",
+    "Proprietary deal access"
   ];
 </script>
 
@@ -32,27 +25,23 @@
     <!-- Right Column Content -->
     <div class="w-full md:w-3/4">
       <div class="mb-12">
-        <div class="flex space-x-4 text-xl font-bold mb-4">
-          <span class="text-black">All,</span>
-          <span class="text-gray-400">Acquired,</span>
-          <span class="text-gray-400">IPO</span>
-        </div>
-        <div class="text-gray-400 text-lg leading-relaxed max-w-2xl">
-          AI, B2B, Consumer, FinTech, Frontier, HealthTech, Infrastructure, Semiconductors
+        <h3 class="text-2xl font-bold mb-6">Why Firedrop</h3>
+        <div class="text-lg leading-relaxed max-w-2xl space-y-4">
+          <p>
+            Firedrop reaches exited founders through LP referrals, overcoming trust concerns with our proven 2.2x MOIC track record. Our £10M pre-seed fund is backed by 180 founder-angel LPs who serve as superconnectors, driving proprietary dealflow.
+          </p>
+          <p class="text-gray-600">
+            Pietro spent 7.5 years in pre-seed venture, uniquely positioned to solve founder-market fit. This deep experience enables us to identify exceptional founders before traditional signals exist.
+          </p>
         </div>
       </div>
 
-      <div class="grid grid-cols-2 gap-x-8 text-lg font-medium leading-tight">
-        <div class="space-y-1">
-          {#each companiesLeft as company}
-            <div class="hover:text-blue-600 cursor-pointer transition-colors">{company}</div>
-          {/each}
-        </div>
-        <div class="space-y-1">
-          {#each companiesRight as company}
-            <div class="hover:text-blue-600 cursor-pointer transition-colors">{company}</div>
-          {/each}
-        </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-base font-medium">
+        {#each lpBenefits as benefit}
+          <div class="py-3 px-4 bg-gray-50 hover:bg-gray-100 transition-colors border border-gray-200">
+            {benefit}
+          </div>
+        {/each}
       </div>
     </div>
   </div>
